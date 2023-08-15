@@ -1,10 +1,22 @@
 import React from 'react';
+import {Routes , Route} from 'react-router-dom';
+import Home from "./pages/Home";
+import Details from "./pages/Details";
+import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <div className="bg-red-500">
-        <h1 className='text-white'>Salam Dunya</h1>
+      <div className="overflow-hidden">
+      <Header/>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/product/:id' element={<Details />} />
+        </Routes>
+        <Sidebar />
+        <Footer />
       </div>
     </>
   )
