@@ -11,11 +11,11 @@ function App() {
     <>
       <div className="overflow-hidden">
       <Header/>
+      <Sidebar />
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/product/:id' element={<Details />} />
         </Routes>
-        <Sidebar />
         <Footer />
       </div>
     </>
