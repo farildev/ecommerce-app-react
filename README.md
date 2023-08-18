@@ -1,8 +1,10 @@
-# React + Vite
+# Clarity e-commerce app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Context is a project created to understand api logic and learn its uses. TailwindCSS, PostCSS & Vite were used on the project.
 
-Currently, two official plugins are available:
+You can also make new additions by creating a 2nd branch on the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The tutorial used to write the project:
+
+- [@Tutorial Link](https://www.youtube.com/watch?v=lGnuiAZCjuM)
+- [@Context API Documentation](https://legacy.reactjs.org/docs/context.html)
