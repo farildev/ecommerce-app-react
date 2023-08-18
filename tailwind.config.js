@@ -24,7 +24,8 @@ export default {
     extend: {
       colors : {
         primary : '#222222',
-        secondary : '#F5E6E0'
+        secondary : '#F5E6E0',
+        main : '#512bd4'
       },
       backgroundImage : "url('./images/bg_hero.svg')"
     },
